@@ -1,0 +1,54 @@
+.topnav {
+    overflow: hidden;
+    background-color: #666666;
+  }
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  body {
+    background-color: #ccffdd;
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+  }
+  .content, .content2, .content3{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-bottom: 10%;
+    padding : 50px;
+  }
+  .b{
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    background-color:#666666; 
+  }
+  .content :hover {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  .content2 :hover {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  .content3 :hover {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  
+
+
+  
