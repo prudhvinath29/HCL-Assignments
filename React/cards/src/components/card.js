@@ -1,35 +1,28 @@
 import React from 'react'
 import './card.css'
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import CommentIcon from '@material-ui/icons/Comment';
-import ShareIcon from '@material-ui/icons/Share';
  
-function card({title,imageurl,body}) {
+import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
+ 
+import LinearProgress from '@material-ui/core/LinearProgress';
+ 
+function card({title,imageurl,value}) {
     return(
         <div className="card-container">
             <div className="image-container">
-                <img src={imageurl} alt={title} />
+                <img src={imageurl}  alt={title} />
             </div>
             <div className="card-content">
                 <div className="card-title">
-                  <h3>{title}</h3>
-                </div>
+                  <h3>Welcome Back</h3> 
+                  <h2>{title}</h2>
+                 <button>Upgrade Now</button>
+                  </div>
                 <div className="card-body">
-                <p>{body}</p>
+                <p>Set Up Your Account
+                <LinearProgress variant="determinate" value={value} /></p>
                 </div>
             </div>
-          <div className="btn">
-          <span className="btn1">
-            <FavoriteIcon/>
-          </span>
-          <span className="btn2">
-            <CommentIcon/>
-          </span>
-          <span className="btn3">
-            <ShareIcon/>
-          </span>
-          </div>
-        </div>
+         </div>
     )
 }
 export default card

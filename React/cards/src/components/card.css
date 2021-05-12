@@ -1,10 +1,14 @@
+body{
+    background : linear-gradient(to top right, #87ceeb, #af97f0 120%) fixed;;
+}
 .card-container{
-    width: 300px;
+    width: 400px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
-    float: right;
-    margin: 3.9rem;
-    border-radius: 5px;
+    margin: 2rem;
+    border-radius: 2px;
+    margin-left: 37%;
+    background-color: white;
 }
  
 .card-container:hover{
@@ -14,10 +18,11 @@
  
 .image-container img{
     overflow: hidden;
-    height: 200px;
-    width: 200px;
-    margin-top: 0.5rem;
-    margin-left: 55px;
+    height: 140px;
+    width: 120px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    float: left;
 }
  
 .card-content{
@@ -48,4 +53,33 @@
 .image-container img :hover{
     transform: scale(1,1);
     box-shadow: 0px 0px 15px 0px;
+}
+ 
+.card-body p{
+text-align: left;
+padding: 10px;
+font-size: small;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+ 
+.card-body {
+    margin-top: 2.5rem;
+    background-color: rgb(224, 219, 219);
+}
+ 
+button{
+    background-color: blueviolet;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
+    padding: 5px;
+}
+ 
+.card-title{
+    margin-left: 40%;
+}
+ 
+h3{
+    margin-bottom: -15px;
 }
